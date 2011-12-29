@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-french.doc
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 French version of A Short Introduction to LaTeX2e.
@@ -28,7 +26,6 @@ French version of A Short Introduction to LaTeX2e.
 %doc %{_texmfdistdir}/doc/latex/lshort-french/historique
 %doc %{_texmfdistdir}/doc/latex/lshort-french/lshort-fr-5.01fr-0.tgz
 %doc %{_texmfdistdir}/doc/latex/lshort-french/lshort-fr.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ French version of A Short Introduction to LaTeX2e.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
