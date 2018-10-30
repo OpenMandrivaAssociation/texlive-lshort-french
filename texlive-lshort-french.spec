@@ -6,7 +6,7 @@
 # catalog-version 5.01fr-0
 Name:		texlive-lshort-french
 Version:	5.01fr0
-Release:	1
+Release:	2
 Summary:	Short introduction to LaTeX, French translation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/french
