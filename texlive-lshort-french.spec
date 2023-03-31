@@ -1,6 +1,6 @@
 Name:		texlive-lshort-french
 Version:	23332
-Release:	1
+Release:	2
 Summary:	Short introduction to LaTeX, French translation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/french
