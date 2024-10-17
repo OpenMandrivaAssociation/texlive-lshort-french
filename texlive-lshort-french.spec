@@ -3,7 +3,7 @@ Version:	23332
 Release:	2
 Summary:	Short introduction to LaTeX, French translation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/french
+URL:		https://www.ctan.org/tex-archive/info/lshort/french
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-french.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-french.doc.r%{version}.tar.xz
